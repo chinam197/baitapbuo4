@@ -1,0 +1,46 @@
+:root {
+     --main-color: white;
+}
+body .style-footer {
+     max-width: 90%;
+     background: #334455;
+     padding-left: 30px;
+     padding-top: 15px;
+     padding-bottom: 30px;
+}
+
+h1  .style-title1 {
+     color: #f49f00;
+}
+[class^="style--"] {
+     color:var(--main-color);
+}
+.style-footer .size-input {
+     width: 250px;
+     height: 32px;
+}
+.style-footer .size-button {
+     width:200px ;
+     padding-top: 10px ;
+     padding-bottom: 10px;
+}
+
+.style-footer:hover .style-input {
+    background: #ddd;
+}
+
+.style-footer .style-button {
+background:#f8db35;
+
+}
+
+.style-footer:hover .style-input::placeholder {
+     color: #f49f00;
+}
+.style-footer:hover .style-button {
+background: #f49f00;
+color: var(--main-color);
+
+
+
+}

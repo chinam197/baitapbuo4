@@ -1,0 +1,101 @@
+:root {
+--font-size:12px;
+
+}
+
+/* header chỉnh ra giữa  */
+header {
+    margin: 0px auto;
+
+} 
+/* căn chỉnh nav ra giữa */
+.main-menu {
+margin: 0px auto;
+
+}
+/* tiêu đề giữa */
+h1 {
+    text-align: center;
+}
+
+/* chỉnh table */
+.menu {
+  border-spacing: 3px;
+  height: 10px;
+ margin: 10px auto;
+}
+/* table td */
+.menu td {
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #f4f4f4;
+}
+.menu td > a {
+text-decoration: none;
+}
+/* hover tới td */
+.menu td:hover {
+background-color: #29388e ;
+}
+
+.menu td:hover a
+{
+ color: white;
+}
+
+/*                           phần main                                        */
+main {
+height:1000px;
+
+}
+.ul-product {
+height:350px;
+width: 100%;
+margin-top: 10%;
+margin: 4% auto;
+justify-content: center;
+
+}
+.menu-product {
+display: flex;
+width:80% ;
+margin: 0px auto;
+}
+.menu-product li img {
+max-width: 100%;
+height: auto;
+
+} 
+.menu-product li {
+    list-style: none;
+    justify-items: center;
+    max-height: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+
+}
+.menu-product li h3{
+font-size: var(--font-size);
+text-align: center;
+}
+.icon-star img {
+    width: 10px;
+   
+}
+.icon-star {
+   width: 70px;
+   margin: 0px auto;
+}
+.menu-product li b {
+    font-size: var(--font-size);
+    text-align: center;
+    display: block;
+}
+
+.menu-product li:hover{
+    color: red;
+    
+}
+ 
